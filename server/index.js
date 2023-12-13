@@ -55,7 +55,7 @@ app.use((err,req,res,next)=>{
   });
 });
 
-app.listen(PORT,()=>{
+app.listen(PORT,"0.0.0.0",()=>{
     connect();
     console.log(`server is live on http://localhost:${PORT}`);
 })
