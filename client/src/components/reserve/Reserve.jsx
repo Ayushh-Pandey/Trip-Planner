@@ -1,4 +1,5 @@
-import React, { useContext, useState, useNavigate } from 'react'
+import React, { useContext, useState} from 'react'
+import { useNavigate } from 'react-router-dom'
 import "./Reserve.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons'
